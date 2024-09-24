@@ -1,0 +1,83 @@
+/* General styles */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Container padding */
+.container {
+    max-width: 800px;
+}
+
+/* Title styles */
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004a99;
+}
+
+/* Card styling */
+.card {
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+/* Form input styling */
+.form-control {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+
+/* Text output box styling */
+.text-output {
+    max-height: 400px;
+    overflow-y: auto;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Typography for headings and paragraphs */
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #007bff;
+}
+
+p.lead {
+    font-size: 1.25rem;
+}
+
+/* Alert messages */
+.alert {
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+}
